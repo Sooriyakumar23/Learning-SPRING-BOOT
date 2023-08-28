@@ -1,0 +1,9 @@
+Inside the JVM we have a special container called `Spring Container`
+Spring Container will have different objects. The objects which are created here are called as 'Spring Beans'
+'Singleton' & 'Prototype' are the scopes to create the Spring Beans
+    @Component
+    @Scope(value="prototype")
+    Singleton :- Always once
+    Prototype :- Only whenever getBean called [0 / 1 / 2 .....]
+'SpringApplication.run' will create the Spring Container
+@Autowired = uses Type & @Qualifier uses value
