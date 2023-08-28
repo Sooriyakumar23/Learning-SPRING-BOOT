@@ -1,0 +1,14 @@
+JDBC = Java Data Base Connectivity
+
+7 Steps:
+    1) import the package
+        * import java.sql.*;
+    2) Load & Register the Driver
+        * Class.forName("com.mysql.....")
+    3)  Establish the Connection
+    4) Create the Statement
+    5) Execute the Query
+    6) Process the Results
+    7) Close the Connection
+        * st.close();
+        * con.close();
